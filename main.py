@@ -9,7 +9,7 @@ player = pyttsx3.init()
 
 def listen():
     with sr.Microphone() as input_device:
-        print("I am ready, Listening ....")
+        print("frank say......")
         voice_content = listener.listen(input_device)
         text_command = listener.recognize_google(voice_content)
         text_command = text_command.lower()
